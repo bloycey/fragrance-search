@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Fragrance Search",
+  "short_name": "Search",
+  "description": "Adds functionality to right click and search for selected fragrance on Fragrantica and Basenotes",
+  "version": "0.0.1",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "background": {
+      "scripts": ["app.js"]},
+    "icons": { "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" }
+}
